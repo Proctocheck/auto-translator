@@ -13,9 +13,11 @@ Program for auto translate any video in real time
 
 4) вызвать код для нахождения подключённых аудиоустройств:
 
-   ```for i in range(a.recorder.get_device_count()):```
+   ```recorder = pyaudio.PyAudio()```
+
+   ```for i in range(recorder.get_device_count()):```
    
-   ```    print(i, a.recorder.get_device_info_by_index(i))```
+   ```    print(i, recorder.get_device_info_by_index(i))```
 
 5) выбрать подходящее аудиоустройство (для записи должно быть устройство Line 1, у которого ```'maxInputChannels' != 0```,
   а для вывода должно быть устройство (наушники, колонки), у которого ```'maxOutputChannels' != 0```
