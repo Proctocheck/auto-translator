@@ -1,0 +1,7 @@
+PyAudio==0.2.14
+librosa==0.10.2.post1
+numpy==1.26.3
+transformers==4.41.2
+spacy==3.7.5
+en-core-web-sm
+pyspellchecker==0.8.1
