@@ -1,5 +1,5 @@
 # auto-translator
-Program for auto translate any audio (video, speech and etc.) in real time
+Program for auto translate any audio (video, speech and etc.) to audio on your language in real time
 
 ## ПРЕДИСЛОВИЕ
 
